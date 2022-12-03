@@ -10,6 +10,7 @@ import subprocess
 from web_basic_function import driverBuild, try_elem_click, try_elem_send, checkbox
 
 help = '''
+downloaded file will be stored in /home/fzr/Downloads
 options:
     -i: biosample list file, one line one record
 '''
@@ -47,7 +48,7 @@ for biosample in biosamples:
     else:
         print(f'{biosample} count a error in input biosample part')
         continue
-    print('{biosample} Running smoothly ...')
+    print(f'{biosample} Running smoothly ...')
     if try_elem_click(wait, '//*[@id="topSearchDiv"]/div[2]/form/div/div[2]/button', 'xpath', driver):
         pass
     else:
