@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- encoding: utf-8 -*-
 # --------------------------------------------------------------> this py file is the main interface of spiderSprite <---------------------------------------------------------------- #
 import sys
