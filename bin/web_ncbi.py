@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# FIXME: 按照之前的筛选方法，存在大量的非特定物种，需要在右上角再进行一次filter
 # -*- coding: utf-8 -*-
 
 import sys
